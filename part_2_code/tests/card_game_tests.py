@@ -19,9 +19,6 @@ class TestCardGame(unittest.TestCase):
         self.assertEqual(
             self.card2, self.card_game.highest_card(self.card1, self.card2))
 
-        
-
-
     def test_cards_total(self):
         cards = [self.card1, self.card2]
         self.assertEqual(
