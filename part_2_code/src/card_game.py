@@ -15,9 +15,9 @@ class CardGame:
     def highest_card(self, card1, card2):
 
         if card1.value > card2.value:
-            return card1.value
+            return card1
         else:
-            return card2.value
+            return card2
 
     def cards_total(self, cards):
         total = 0
