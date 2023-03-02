@@ -32,6 +32,7 @@ class CardGame:
   if card1.value > card2.value:
     # if statement has an indentation error.
     return card
+    # it needs to return card1 not card
   else:
     return card2
 
