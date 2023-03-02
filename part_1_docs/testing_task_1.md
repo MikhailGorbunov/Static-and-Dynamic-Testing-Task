@@ -40,6 +40,7 @@ class CardGame:
 def cards_total(self, cards):
   # the whole function has an indention error. It does not belong to the CardGame class
   total
+  # total value needs to be assign to zero for it work as a counter
   for card in cards:
     total += card.value
     return "You have a total of" + total
