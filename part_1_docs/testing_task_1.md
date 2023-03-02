@@ -45,4 +45,5 @@ def cards_total(self, cards):
   for card in cards:
     total += card.value
     return "You have a total of" + total
+  # instead of return it should be return f"You have a total of {total}"
 ```
